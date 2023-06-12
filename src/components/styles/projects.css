@@ -1,0 +1,115 @@
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.projects-section-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.projects-section-box .discover-my-projects {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+.projects-section-box h2 span{
+background: -webkit-linear-gradient(left,#2980B9, #8961F6);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+
+
+.projects-section-box .projects-desc {
+    color: #A3B3C3;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    max-width: 785px;
+}
+
+
+
+.projects-section-box .mywork-text{
+    color: #2980B9;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.projects-card-section{
+    display: flex;
+    gap: 65px;
+    margin-top: 72px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button settings */
+.projects-card-section button{
+    background: none;
+    color: #A3B3BC;
+    outline: none;
+    cursor: none;
+    border: none;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-radius: 10px;
+    transition: color .3s;
+}
+
+
+
+.projects-card-section button:hover{
+    color: #ffffff;
+}
+
+
+
+/*Responsive*/
+@media (max-width: 1055px) {
+    .projects-card-section {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .previous{
+        position: absolute;
+        left: 50px;
+    }
+
+    .next{
+        position: absolute;
+        right: 50px;
+    }
+
+    
+  }
+
+  @media (max-width: 600px) {
+    .previous{
+        left: 0px;
+    }
+
+    .next{
+        right: 0px;
+    }
+  }
+
+

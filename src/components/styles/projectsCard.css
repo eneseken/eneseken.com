@@ -1,0 +1,83 @@
+/* Card Settings */
+
+.projects-card {
+    width: 370px;
+    height: 470px;
+    background-color: #151030;
+    color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: right;
+}
+
+.icon-container {
+    position: absolute;
+}
+
+.card-image {
+    width: 370px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.title-container {
+    margin-top: 5px;
+}
+.card-title{
+    font-size: 24px;
+    margin: 0;
+    font-weight: 500;
+}
+
+
+.content-container {
+    font-weight: 400;
+    display: flex;
+    justify-content: left;
+}
+.content-container p{
+    color: #A3B3BC;
+    font-size: 14px;
+}
+
+
+.tags-container {
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    justify-content: left;
+}
+.tags-container p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.tag {
+padding: 4px 8px;
+border-radius: 4px;
+margin-right: 4px;
+}
+
+
+/*Responsive*/
+
+@media (max-width: 748px) {
+    .right-container{
+    display: none;
+    }
+    
+    .info-group-about{
+        font-size: 26px;
+    }
+
+}

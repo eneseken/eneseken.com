@@ -1,0 +1,141 @@
+@media (max-width: 300px) {
+  .carousel-item {
+    width: 100%;
+  }
+}
+
+@media (min-width: 300px) {
+  .carousel-item {
+    width: 50%;
+  }
+}
+@media (min-width: 500px) {
+  .carousel-item {
+    width: 33.3%;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-item {
+    width: 33.3%;
+  }
+}
+
+
+
+.carousel-inner {
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  font-size: 0;
+}
+
+.carousel-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 25px;
+  width: 70px;
+  height: 70px;
+}
+
+.carousel-inner img{
+  filter: grayscale(1);
+
+}
+
+.carousel-inner img:hover{
+  filter: none;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 85px;
+}
+
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  border-bottom: 1px solid #A3B3C3; 
+}
+
+.divider-title {
+  position: absolute;
+  margin: 0;
+  padding: 20px;
+  background-color: #040615; 
+  font-size: 14px; 
+  font-weight: 300;
+  border-radius: 20px;
+  color: #555555;
+}
+
+/*Skills Section*/
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 160px;
+}
+
+.skills-section-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.skills-section-box h2 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+
+.skills-section-box h2 span{
+background: -webkit-linear-gradient(left,#2980B9, #8961F6);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+
+
+.skills-section-box p {
+  color: #A3B3C3;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.skills-section-box .container {
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.skills-section-box .skills-text{
+  color: #2980B9;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+
+
+@media (max-width: 748px) {
+  .skills-section-box h2{
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,124 @@
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.contact-section-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section-box h2 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+.contact-section-box .contact-text{
+    color: #2980B9;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+/* Form içi */
+
+
+input[type="text"]:valid + span{
+    color: rgb(0, 206, 0);
+}                                    
+input[type="text"]:invalid:focus + span{
+    color: #da1487;
+}
+
+textarea:invalid:focus + span{
+    color: #da1487;
+}
+
+
+
+.contactForm{
+    width: 40%;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    color: #ffffff;
+    background:none ;
+    resize: none;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 1px solid #A3B3C3;
+    outline: none;
+    cursor: none;
+    transition: .3s all;
+
+}
+
+.contactForm .inputBox input:focus,
+.contactForm .inputBox textarea:focus{
+    border-bottom: 1px solid #115FAE;
+}
+
+
+
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+    font-size: 12px;
+    font-weight: 300;
+    color: #A3B3C3;
+    transform:  translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"]
+{
+    width: 100px;
+    background: #115FAE;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+/* Confetti Settings */
+
+.confetti{
+    width: 100%;
+    height: 420px;
+}
+

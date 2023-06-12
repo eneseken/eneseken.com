@@ -1,0 +1,57 @@
+/* Card Settings */
+
+.skills-card-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 85px;
+    gap: 60px;
+}
+
+.skills-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 10px;
+    transition: .3s;
+}
+
+.skills-card:hover{
+    background-color: #0f0725;
+}
+
+
+
+.skills-icon-container {
+    position: relative;
+}
+
+
+.title-container {
+    margin-top: 5px;
+}
+
+.card-title{
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+}
+
+
+.content-container {
+    font-weight: 400;
+    display: flex;
+    justify-content: left;
+}
+.content-container p{
+    color: #A3B3BC;
+    font-size: 14px;
+}
+
+

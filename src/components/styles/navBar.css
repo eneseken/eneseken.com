@@ -1,0 +1,60 @@
+.navBar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #040615;
+    height: 90px;
+    color: white;
+    z-index: 99; /* Lower z-index value compared to the cursor elements */
+    transition: box-shadow 0.3s ease;
+}
+
+.nav-contents{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-contents a{
+    color: #fff ;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: #040615;
+    border-radius: 10px;
+    padding: 32px;
+    box-shadow: 0px 10px 20px 0px rgba(28, 33, 41, 0.082);
+
+  }
+  
+  .dropdown-menu li {
+    margin-bottom: 10px;
+    list-style: none;
+  }
+
+  .dropdown-icon {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+
+/* Responsive */
+
+.hamburger-section{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .site-logo{
+    display: none;
+  }
+
+}

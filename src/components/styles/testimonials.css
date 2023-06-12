@@ -1,0 +1,123 @@
+.testimonials-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.testimonials-section-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.testimonials-section-box h2 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+.testimonials-section-box .testimonials-text{
+    color: #2980B9;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+
+/* Testimonials Box */
+
+.testimonialBox{
+    position: relative;
+    width: 200px;
+    color: #fff;
+}
+
+.testimonialBox .details{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.testimonialBox .details .imgBx{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.testimonialBox .details .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.testimonialBox .details h3 span{
+    font-size: 12px;
+}
+
+
+
+/* Testimonial Card css*/
+.main-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+font-family: 'Poppins', sans-serif;
+margin-top: 30px;
+}
+
+
+
+.box {
+    display: inline-block;
+    width: 250px;
+    border-radius: 20px;
+    border: solid #2980B9;
+    border-width: thin;
+    margin: 10px;
+    padding: 32px;
+    background: linear-gradient(to bottom, #051424, #061522);
+    color: #ced6de;
+}
+
+
+
+.card-container p{
+font-size: 14px;
+font-weight: 400;
+}
+
+.info-box .name{
+font-size: 14px;
+font-weight: 500;
+}
+
+.info-box  .job{
+font-size: 12px;
+font-weight: 300;
+}
+
+.circle{
+width:50px;
+height: 50px;
+border-radius: 50%;
+object-fit: contain;
+border: 1px solid #FFFFFF;
+}
+
+
+.container-inner{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
